@@ -7,3 +7,4 @@ It uses Node.JS to access the [Spotify Web API](https://developer.spotify.com/we
 
 Have a look at the [demo](http://jmperezperez.com/spotify-most-followed-popular-artists-genres/).
 
+Note: Not every artist has been processed, but it's very likely that most followed/popular ones are in the dataset. Note that going through all artists involves a ton of requests.
