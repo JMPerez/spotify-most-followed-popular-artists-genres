@@ -2,7 +2,9 @@
 
 body {
   background-color: #cd4242;
-  font-family:proxima_nova,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;
+  font-family:proxima_nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:16px;
+  line-height:1.5;
 }
 
 header.section-header {
@@ -35,6 +37,13 @@ header.section-header h2 {
   background-size: cover;
   background-position: center top;
   /*-webkit-filter: sepia(0.7) hue-rotate(200deg);*/
+}
+
+.intro {
+  background-color:#FF9F9F;
+  padding: 10px;
+  border-left:10px solid #EE6C6C;
+  margin-bottom: 30px;"
 }
 
 .avatar {
@@ -75,6 +84,7 @@ header.section-header h2 {
 }
 
 #scatter {
+  text-align: center;
   background-color: #fff;
 }
 
@@ -87,6 +97,7 @@ svg {
   list-style: none;
   text-align: center;
   padding-top: 10px;
+  padding-left: 0;
 }
 
 .legend li {

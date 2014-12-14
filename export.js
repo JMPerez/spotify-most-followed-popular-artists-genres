@@ -1,3 +1,4 @@
+/* This script exports data from the database in a format suitable for the UI */
 
 var SpotifyWebApi = require('spotify-web-api-node');
 var spotifyApi = new SpotifyWebApi();

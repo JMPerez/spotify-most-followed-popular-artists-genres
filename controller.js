@@ -110,7 +110,7 @@ function drawChart(data) {
             return yScale(d[1]);
          })
          .attr("r", function(d) {
-            return 3;
+            return 4;
          })
          .attr("data-legend", function(d) {
           return allValues[d[2]].key;

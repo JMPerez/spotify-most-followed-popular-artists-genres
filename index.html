@@ -2,18 +2,15 @@
 <head>
   <title>Spotify artists' popularity & genre displayed</title>
   <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="http://cmaurer.github.io/angularjs-nvd3-directives/lib/nvd3/nv.d3.css">
+  <link rel="stylesheet" type="text/css" href="nv.d3.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.js"></script>
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-  <script src="controller.js"></script>
 </head>
 <body ng-app="app">
 <div ng-controller="StatsController" class="container">
   <div>
     <img src="spotify-logo.png" width="300" class="logo">
   </div>
-  <p style="background-color:#FF9F9F;padding: 10px;border-left:10px solid #EE6C6C;margin-bottom: 30px;">
+  <p class="intro">
     <strong>What is this about</strong><br/>
     This is a small project that fetches Spotify data about artists' popularity, genre and followers and creates ranks. It should respond to questions like "what genre is the one that gets most followers?" or "is the most followed artist the most popular one on Spotify?"
   </p>
@@ -99,6 +96,10 @@
     </div>
   </div>
 </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="controller.js"></script>
+
 </body>
 </html>
 
