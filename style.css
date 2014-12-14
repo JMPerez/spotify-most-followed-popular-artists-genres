@@ -1,0 +1,103 @@
+@font-face{font-family:proxima_nova;src:url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_light_0.eot);src:url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_light_0.eot?#iefix) format('embedded-opentype'),url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_light_0.woff) format('woff'),url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_light_0.ttf) format('truetype');font-weight:200;font-style:normal}@font-face{font-family:proxima_nova;src:url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_thin_0.eot);src:url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_thin_0.eot?#iefix) format('embedded-opentype'),url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_thin_0.woff) format('woff'),url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_thin_0.ttf) format('truetype');font-weight:100;font-style:normal}@font-face{font-family:proxima_nova;src:url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_regular_0.eot);src:url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_regular_0.eot?#iefix) format('embedded-opentype'),url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_regular_0.woff) format('woff'),url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_regular_0.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:proxima_nova;src:url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_semibold_0.eot);src:url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_semibold_0.eot?#iefix) format('embedded-opentype'),url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_semibold_0.woff) format('woff'),url(https://d3nkxvtkt5c8vi.cloudfront.net/3.0.1/fonts/proxima_nova_semibold_0.ttf) format('truetype');font-weight:600;font-style:normal}
+
+body {
+  background-color: #cd4242;
+  font-family:proxima_nova,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;
+}
+
+header.section-header {
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+header.section-header h2 {
+  margin-top: 10px;
+}
+
+.logo {
+  margin: 40px auto;
+  display: block;
+}
+
+.chart {
+  margin-bottom:  30px;
+}
+
+.chart .position {
+  font-weight: bold;
+}
+
+.photo {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+  /*-webkit-filter: sepia(0.7) hue-rotate(200deg);*/
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+
+.item {
+  background-color: #fff;
+  height: 56px;
+  padding: 8px 24px;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item .position {
+  width: 56px;
+}
+
+.item .name {
+  padding-left: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 16px;
+  -webkit-flex: 1;
+  /* flex: 1; */
+  -webkit-flex-basis: 0;
+  /* flex-basis: 0; */
+}
+
+#scatter {
+  background-color: #fff;
+}
+
+svg {
+  width: inherit;
+  margin: 0 auto;
+}
+
+.legend {
+  list-style: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.legend li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.circle-legend {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
